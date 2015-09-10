@@ -1,0 +1,1 @@
+python extract_words.py  srts/Romanzo*.srt  all.out --verificationfile=/usr/share/dict/italian

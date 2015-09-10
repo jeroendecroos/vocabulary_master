@@ -1,0 +1,1 @@
+cat known_memrise | awk  'NR % 3 == 0'  | tr -s ' ' | tr ' ' '\n' | tr '/' '\n' | sed "s/[!\w;)'(]//g" | tr '[:upper:]' '[:lower:]' | sort -u > known_memrise2

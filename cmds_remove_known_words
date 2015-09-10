@@ -1,0 +1,1 @@
+python  remove_known_words.py known_final_sorted all.out new_words.out
